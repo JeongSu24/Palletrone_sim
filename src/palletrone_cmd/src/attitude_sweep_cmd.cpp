@@ -1,7 +1,6 @@
 #include <chrono>
 #include <cmath>
 #include <string>
-
 #include <rclcpp/rclcpp.hpp>
 #include <palletrone_interfaces/msg/attitude_cmd.hpp>
 
@@ -15,9 +14,9 @@ public:
     current_deg_(0.0)
   {
     this->declare_parameter<std::string>("axis", "roll");
-    this->declare_parameter<double>("max_deg", 180.0);
-    this->declare_parameter<double>("speed_deg_s", 5.0);
-    this->declare_parameter<double>("publish_hz", 50.0);
+    this->declare_parameter<double>("max_deg", 20.0);
+    this->declare_parameter<double>("speed_deg_s", 2.0);
+    this->declare_parameter<double>("publish_hz", 400.0);
 
     axis_        = this->get_parameter("axis").as_string();
     max_deg_     = this->get_parameter("max_deg").as_double();

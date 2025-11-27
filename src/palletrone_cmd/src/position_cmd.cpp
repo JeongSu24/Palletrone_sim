@@ -5,7 +5,7 @@
 
 static constexpr double X_CMD = 0.0;
 static constexpr double Y_CMD = 0.0;
-static constexpr double Z_CMD = 6.0;
+static constexpr double Z_CMD = 1.0;
 static constexpr int    RATE_HZ = 400;
 
 class PositionCmd : public rclcpp::Node {
@@ -25,17 +25,42 @@ public:
 private:
   void onTick(){
     using palletrone_interfaces::msg::Cmd;
-    Cmd msg;
 
+    // 경과 시간 계산
+    auto now = std::chrono::steady_clock::now();
+    double t = std::chrono::duration<double>(now - t0_).count();  // [sec]
+
+    double x = 0.0;
+    double y = 0.0;
+    double z = 0.0;
+
+    if (t < 5.0) {
+      // 처음 5초: z만 명령
+      x = 0.0;
+      y = 0.0;
+      z = Z_CMD;
+    } else if (t < 10.0) {
+      // 다음 5초: x 추가
+      x = X_CMD;
+      y = 0.0;
+      z = Z_CMD;
+    } else {
+      // 10초 이후: y까지 추가
+      x = X_CMD;
+      y = Y_CMD;
+      z = Z_CMD;
+    }
+
+    Cmd msg;
     // 시간 계산이나 궤적 계산 불필요
 
     // 목표 위치를 상수로 고정
-    double x = 0.0;
-    double y = 0.0;
-    double z = 2.0;  // 높이 3m
+   /*double x = X_CMD;
+    double y = Y_CMD;
+    double z = Z_CMD;  // 높이 3m*/
 
     msg.pos_cmd[0] = static_cast<float>(x);
-    msg.pos_cmd[1] = static_cast<float>(y);
+    msg.pos_cmd[1] = static_cast<float>(y)                       ;
     msg.pos_cmd[2] = static_cast<float>(z);
 
     pub_cmd_->publish(msg);

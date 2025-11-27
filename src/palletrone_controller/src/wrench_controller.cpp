@@ -12,10 +12,10 @@ class WrenchController : public rclcpp::Node
 public:
   WrenchController() : rclcpp::Node("wrench_controller")
   {
-    const double KP_POS[3] = {10.0, 10.0, 1.50};
-    const double KI_POS[3] = {0.01, 0.01, 0.03};
-    const double KD_POS[3] = {5.00, 5.00, 3.00};
-    const double I_MIN_POS = -5.0, I_MAX_POS = 5, OUT_MIN_POS = -200.0, OUT_MAX_POS = 200.0;
+    const double KP_POS[3] = {28.0, 28.0, 20.0}; //3 3 6
+    const double KI_POS[3] = {1.5, 1.5, 1.1}; //0.01 0.01 .0.01
+    const double KD_POS[3] = {6.0, 6.0, 10.0};
+    const double I_MIN_POS = -5.0, I_MAX_POS = 100, OUT_MIN_POS = -200.0, OUT_MAX_POS = 200.0;
 
     const double KP_ATT[3] = {3.00, 3.00, 3.00};
     const double KI_ATT[3] = {0.01, 0.01, 0.01};
