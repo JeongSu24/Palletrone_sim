@@ -1,8 +1,8 @@
-This first version is develope by https://github.com/Ryung-coding
+This first version is developed by <https://github.com/Ryung-coding>
 
+## Code Structure
 
-Code Structure
-
+```text
 Sim_palletrone/
 └── src/
     ├── palletrone_cmd/
