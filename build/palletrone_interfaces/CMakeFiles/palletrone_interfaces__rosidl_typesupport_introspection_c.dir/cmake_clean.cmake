@@ -1,0 +1,29 @@
+file(REMOVE_RECURSE
+  "CMakeFiles/palletrone_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/palletrone_interfaces/msg/detail/arm_cmd__type_support.c.o"
+  "CMakeFiles/palletrone_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/palletrone_interfaces/msg/detail/arm_cmd__type_support.c.o.d"
+  "CMakeFiles/palletrone_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/palletrone_interfaces/msg/detail/cmd__type_support.c.o"
+  "CMakeFiles/palletrone_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/palletrone_interfaces/msg/detail/cmd__type_support.c.o.d"
+  "CMakeFiles/palletrone_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/palletrone_interfaces/msg/detail/input__type_support.c.o"
+  "CMakeFiles/palletrone_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/palletrone_interfaces/msg/detail/input__type_support.c.o.d"
+  "CMakeFiles/palletrone_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/palletrone_interfaces/msg/detail/palletrone_state__type_support.c.o"
+  "CMakeFiles/palletrone_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/palletrone_interfaces/msg/detail/palletrone_state__type_support.c.o.d"
+  "CMakeFiles/palletrone_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/palletrone_interfaces/msg/detail/wrench__type_support.c.o"
+  "CMakeFiles/palletrone_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/palletrone_interfaces/msg/detail/wrench__type_support.c.o.d"
+  "libpalletrone_interfaces__rosidl_typesupport_introspection_c.pdb"
+  "libpalletrone_interfaces__rosidl_typesupport_introspection_c.so"
+  "rosidl_typesupport_introspection_c/palletrone_interfaces/msg/detail/arm_cmd__rosidl_typesupport_introspection_c.h"
+  "rosidl_typesupport_introspection_c/palletrone_interfaces/msg/detail/arm_cmd__type_support.c"
+  "rosidl_typesupport_introspection_c/palletrone_interfaces/msg/detail/cmd__rosidl_typesupport_introspection_c.h"
+  "rosidl_typesupport_introspection_c/palletrone_interfaces/msg/detail/cmd__type_support.c"
+  "rosidl_typesupport_introspection_c/palletrone_interfaces/msg/detail/input__rosidl_typesupport_introspection_c.h"
+  "rosidl_typesupport_introspection_c/palletrone_interfaces/msg/detail/input__type_support.c"
+  "rosidl_typesupport_introspection_c/palletrone_interfaces/msg/detail/palletrone_state__rosidl_typesupport_introspection_c.h"
+  "rosidl_typesupport_introspection_c/palletrone_interfaces/msg/detail/palletrone_state__type_support.c"
+  "rosidl_typesupport_introspection_c/palletrone_interfaces/msg/detail/wrench__rosidl_typesupport_introspection_c.h"
+  "rosidl_typesupport_introspection_c/palletrone_interfaces/msg/detail/wrench__type_support.c"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang C)
+  include(CMakeFiles/palletrone_interfaces__rosidl_typesupport_introspection_c.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()

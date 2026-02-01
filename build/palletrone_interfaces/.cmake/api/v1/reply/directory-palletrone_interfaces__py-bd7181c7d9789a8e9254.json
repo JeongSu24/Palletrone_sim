@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "palletrone_interfaces__py",
+		"source" : "/home/sshyuk/palletrone_ws/build/palletrone_interfaces/palletrone_interfaces__py"
+	}
+}

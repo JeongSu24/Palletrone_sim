@@ -1,0 +1,64 @@
+[0.010s] Invoking command in '/home/sshyuk/palletrone_ws/build/palletrone_cmd': AMENT_PREFIX_PATH=/home/sshyuk/palletrone_ws/install/palletrone_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/sshyuk/palletrone_ws/install/palletrone_interfaces:/home/sshyuk/ros2_ws/install/motion_capture_tracking:/home/sshyuk/ros2_ws/install/motion_capture_tracking_interfaces:/home/sshyuk/ros2_ws/install/crawling_robot_controller:/home/sshyuk/ros2_ws/install/keyboard:/home/sshyuk/ros2_ws/install/inchworm:/home/sshyuk/ros2_ws/install/gimbal_utils:/opt/ros/humble LD_LIBRARY_PATH=/home/sshyuk/palletrone_ws/install/palletrone_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/sshyuk/palletrone_ws/install/palletrone_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/sshyuk/palletrone_ws/src/palletrone_cmd -DCMAKE_INSTALL_PREFIX=/home/sshyuk/palletrone_ws/install/palletrone_cmd
+[0.050s] -- The C compiler identification is GNU 11.4.0
+[0.098s] -- The CXX compiler identification is GNU 11.4.0
+[0.103s] -- Detecting C compiler ABI info
+[0.160s] -- Detecting C compiler ABI info - done
+[0.167s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.167s] -- Detecting C compile features
+[0.167s] -- Detecting C compile features - done
+[0.169s] -- Detecting CXX compiler ABI info
+[0.237s] -- Detecting CXX compiler ABI info - done
+[0.241s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.242s] -- Detecting CXX compile features
+[0.242s] -- Detecting CXX compile features - done
+[0.243s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.361s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.427s] -- Found rclcpp: 16.0.11 (/opt/ros/humble/share/rclcpp/cmake)
+[0.455s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.458s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.464s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.471s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.482s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.511s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.513s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.580s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[0.602s] -- Found FastRTPS: /opt/ros/humble/include  
+[0.631s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.636s] -- Looking for pthread.h
+[0.711s] -- Looking for pthread.h - found
+[0.711s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.788s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[0.789s] -- Found Threads: TRUE  
+[0.827s] -- Found palletrone_interfaces: 0.0.0 (/home/sshyuk/palletrone_ws/install/palletrone_interfaces/share/palletrone_interfaces/cmake)
+[0.837s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.884s] -- Configuring done
+[0.889s] -- Generating done
+[0.891s] -- Build files have been written to: /home/sshyuk/palletrone_ws/build/palletrone_cmd
+[0.898s] Invoked command in '/home/sshyuk/palletrone_ws/build/palletrone_cmd' returned '0': AMENT_PREFIX_PATH=/home/sshyuk/palletrone_ws/install/palletrone_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/sshyuk/palletrone_ws/install/palletrone_interfaces:/home/sshyuk/ros2_ws/install/motion_capture_tracking:/home/sshyuk/ros2_ws/install/motion_capture_tracking_interfaces:/home/sshyuk/ros2_ws/install/crawling_robot_controller:/home/sshyuk/ros2_ws/install/keyboard:/home/sshyuk/ros2_ws/install/inchworm:/home/sshyuk/ros2_ws/install/gimbal_utils:/opt/ros/humble LD_LIBRARY_PATH=/home/sshyuk/palletrone_ws/install/palletrone_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/sshyuk/palletrone_ws/install/palletrone_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/sshyuk/palletrone_ws/src/palletrone_cmd -DCMAKE_INSTALL_PREFIX=/home/sshyuk/palletrone_ws/install/palletrone_cmd
+[0.899s] Invoking command in '/home/sshyuk/palletrone_ws/build/palletrone_cmd': AMENT_PREFIX_PATH=/home/sshyuk/palletrone_ws/install/palletrone_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/sshyuk/palletrone_ws/install/palletrone_interfaces:/home/sshyuk/ros2_ws/install/motion_capture_tracking:/home/sshyuk/ros2_ws/install/motion_capture_tracking_interfaces:/home/sshyuk/ros2_ws/install/crawling_robot_controller:/home/sshyuk/ros2_ws/install/keyboard:/home/sshyuk/ros2_ws/install/inchworm:/home/sshyuk/ros2_ws/install/gimbal_utils:/opt/ros/humble LD_LIBRARY_PATH=/home/sshyuk/palletrone_ws/install/palletrone_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/sshyuk/palletrone_ws/install/palletrone_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/sshyuk/palletrone_ws/build/palletrone_cmd -- -j20 -l20
+[0.951s] [ 50%] [32mBuilding CXX object CMakeFiles/position_cmd.dir/src/position_cmd.cpp.o[0m
+[3.713s] [100%] [32m[1mLinking CXX executable position_cmd[0m
+[3.861s] [100%] Built target position_cmd
+[3.873s] Invoked command in '/home/sshyuk/palletrone_ws/build/palletrone_cmd' returned '0': AMENT_PREFIX_PATH=/home/sshyuk/palletrone_ws/install/palletrone_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/sshyuk/palletrone_ws/install/palletrone_interfaces:/home/sshyuk/ros2_ws/install/motion_capture_tracking:/home/sshyuk/ros2_ws/install/motion_capture_tracking_interfaces:/home/sshyuk/ros2_ws/install/crawling_robot_controller:/home/sshyuk/ros2_ws/install/keyboard:/home/sshyuk/ros2_ws/install/inchworm:/home/sshyuk/ros2_ws/install/gimbal_utils:/opt/ros/humble LD_LIBRARY_PATH=/home/sshyuk/palletrone_ws/install/palletrone_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/sshyuk/palletrone_ws/install/palletrone_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/sshyuk/palletrone_ws/build/palletrone_cmd -- -j20 -l20
+[3.875s] Invoking command in '/home/sshyuk/palletrone_ws/build/palletrone_cmd': AMENT_PREFIX_PATH=/home/sshyuk/palletrone_ws/install/palletrone_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/sshyuk/palletrone_ws/install/palletrone_interfaces:/home/sshyuk/ros2_ws/install/motion_capture_tracking:/home/sshyuk/ros2_ws/install/motion_capture_tracking_interfaces:/home/sshyuk/ros2_ws/install/crawling_robot_controller:/home/sshyuk/ros2_ws/install/keyboard:/home/sshyuk/ros2_ws/install/inchworm:/home/sshyuk/ros2_ws/install/gimbal_utils:/opt/ros/humble LD_LIBRARY_PATH=/home/sshyuk/palletrone_ws/install/palletrone_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/sshyuk/palletrone_ws/install/palletrone_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/sshyuk/palletrone_ws/build/palletrone_cmd
+[3.881s] -- Install configuration: ""
+[3.881s] -- Installing: /home/sshyuk/palletrone_ws/install/palletrone_cmd/lib/palletrone_cmd/position_cmd
+[3.882s] -- Set runtime path of "/home/sshyuk/palletrone_ws/install/palletrone_cmd/lib/palletrone_cmd/position_cmd" to ""
+[3.882s] -- Installing: /home/sshyuk/palletrone_ws/install/palletrone_cmd/share/palletrone_cmd/launch
+[3.882s] -- Installing: /home/sshyuk/palletrone_ws/install/palletrone_cmd/share/palletrone_cmd/launch/pt_launch.py
+[3.882s] -- Installing: /home/sshyuk/palletrone_ws/install/palletrone_cmd/share/ament_index/resource_index/package_run_dependencies/palletrone_cmd
+[3.882s] -- Installing: /home/sshyuk/palletrone_ws/install/palletrone_cmd/share/ament_index/resource_index/parent_prefix_path/palletrone_cmd
+[3.882s] -- Installing: /home/sshyuk/palletrone_ws/install/palletrone_cmd/share/palletrone_cmd/environment/ament_prefix_path.sh
+[3.882s] -- Installing: /home/sshyuk/palletrone_ws/install/palletrone_cmd/share/palletrone_cmd/environment/ament_prefix_path.dsv
+[3.882s] -- Installing: /home/sshyuk/palletrone_ws/install/palletrone_cmd/share/palletrone_cmd/environment/path.sh
+[3.882s] -- Installing: /home/sshyuk/palletrone_ws/install/palletrone_cmd/share/palletrone_cmd/environment/path.dsv
+[3.882s] -- Installing: /home/sshyuk/palletrone_ws/install/palletrone_cmd/share/palletrone_cmd/local_setup.bash
+[3.882s] -- Installing: /home/sshyuk/palletrone_ws/install/palletrone_cmd/share/palletrone_cmd/local_setup.sh
+[3.882s] -- Installing: /home/sshyuk/palletrone_ws/install/palletrone_cmd/share/palletrone_cmd/local_setup.zsh
+[3.883s] -- Installing: /home/sshyuk/palletrone_ws/install/palletrone_cmd/share/palletrone_cmd/local_setup.dsv
+[3.883s] -- Installing: /home/sshyuk/palletrone_ws/install/palletrone_cmd/share/palletrone_cmd/package.dsv
+[3.883s] -- Installing: /home/sshyuk/palletrone_ws/install/palletrone_cmd/share/ament_index/resource_index/packages/palletrone_cmd
+[3.883s] -- Installing: /home/sshyuk/palletrone_ws/install/palletrone_cmd/share/palletrone_cmd/cmake/palletrone_cmdConfig.cmake
+[3.883s] -- Installing: /home/sshyuk/palletrone_ws/install/palletrone_cmd/share/palletrone_cmd/cmake/palletrone_cmdConfig-version.cmake
+[3.883s] -- Installing: /home/sshyuk/palletrone_ws/install/palletrone_cmd/share/palletrone_cmd/package.xml
+[3.884s] Invoked command in '/home/sshyuk/palletrone_ws/build/palletrone_cmd' returned '0': AMENT_PREFIX_PATH=/home/sshyuk/palletrone_ws/install/palletrone_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/sshyuk/palletrone_ws/install/palletrone_interfaces:/home/sshyuk/ros2_ws/install/motion_capture_tracking:/home/sshyuk/ros2_ws/install/motion_capture_tracking_interfaces:/home/sshyuk/ros2_ws/install/crawling_robot_controller:/home/sshyuk/ros2_ws/install/keyboard:/home/sshyuk/ros2_ws/install/inchworm:/home/sshyuk/ros2_ws/install/gimbal_utils:/opt/ros/humble LD_LIBRARY_PATH=/home/sshyuk/palletrone_ws/install/palletrone_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/sshyuk/palletrone_ws/install/palletrone_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/sshyuk/palletrone_ws/build/palletrone_cmd

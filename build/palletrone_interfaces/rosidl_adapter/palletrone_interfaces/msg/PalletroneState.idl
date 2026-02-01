@@ -1,0 +1,34 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from palletrone_interfaces/msg/PalletroneState.msg
+// generated code does not contain a copyright notice
+
+
+module palletrone_interfaces {
+  module msg {
+    typedef double double__3[3];
+    typedef double double__4[4];
+    struct PalletroneState {
+      double__3 pos;
+
+      double__3 vel;
+
+      double__3 acc;
+
+      @verbatim (language="comment", text=
+        "[roll, pitch, yaw]")
+      double__3 rpy;
+
+      @verbatim (language="comment", text=
+        "[w_roll, w_pitch, w_yaw]")
+      double__3 w_rpy;
+
+      @verbatim (language="comment", text=
+        "[a_roll, a_pitch, a_yaw]")
+      double__3 a_rpy;
+
+      @verbatim (language="comment", text=
+        "[Motor1_tilted_angle, Motor2_tilted_angle, Motor3_tilted_angle, Motor4_tilted_angle]")
+      double__4 servo;
+    };
+  };
+};

@@ -1,0 +1,41 @@
+running egg_info
+creating ../../build/plant/plant.egg-info
+writing ../../build/plant/plant.egg-info/PKG-INFO
+writing dependency_links to ../../build/plant/plant.egg-info/dependency_links.txt
+writing entry points to ../../build/plant/plant.egg-info/entry_points.txt
+writing requirements to ../../build/plant/plant.egg-info/requires.txt
+writing top-level names to ../../build/plant/plant.egg-info/top_level.txt
+writing manifest file '../../build/plant/plant.egg-info/SOURCES.txt'
+reading manifest file '../../build/plant/plant.egg-info/SOURCES.txt'
+writing manifest file '../../build/plant/plant.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/sshyuk/palletrone_ws/build/plant/build
+creating /home/sshyuk/palletrone_ws/build/plant/build/lib
+creating /home/sshyuk/palletrone_ws/build/plant/build/lib/plant
+copying plant/__init__.py -> /home/sshyuk/palletrone_ws/build/plant/build/lib/plant
+copying plant/plant.py -> /home/sshyuk/palletrone_ws/build/plant/build/lib/plant
+running install
+running install_lib
+creating /home/sshyuk/palletrone_ws/install/plant/lib/python3.10/site-packages/plant
+copying /home/sshyuk/palletrone_ws/build/plant/build/lib/plant/__init__.py -> /home/sshyuk/palletrone_ws/install/plant/lib/python3.10/site-packages/plant
+copying /home/sshyuk/palletrone_ws/build/plant/build/lib/plant/plant.py -> /home/sshyuk/palletrone_ws/install/plant/lib/python3.10/site-packages/plant
+byte-compiling /home/sshyuk/palletrone_ws/install/plant/lib/python3.10/site-packages/plant/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/sshyuk/palletrone_ws/install/plant/lib/python3.10/site-packages/plant/plant.py to plant.cpython-310.pyc
+running install_data
+creating /home/sshyuk/palletrone_ws/install/plant/share/ament_index
+creating /home/sshyuk/palletrone_ws/install/plant/share/ament_index/resource_index
+creating /home/sshyuk/palletrone_ws/install/plant/share/ament_index/resource_index/packages
+copying resource/plant -> /home/sshyuk/palletrone_ws/install/plant/share/ament_index/resource_index/packages
+copying package.xml -> /home/sshyuk/palletrone_ws/install/plant/share/plant
+creating /home/sshyuk/palletrone_ws/install/plant/share/plant/xml
+copying xml/BODY.stl -> /home/sshyuk/palletrone_ws/install/plant/share/plant/xml
+copying xml/scene.xml -> /home/sshyuk/palletrone_ws/install/plant/share/plant/xml
+copying xml/STLchanger.py -> /home/sshyuk/palletrone_ws/install/plant/share/plant/xml
+copying xml/PROP.stl -> /home/sshyuk/palletrone_ws/install/plant/share/plant/xml
+copying xml/Palletrone.xml -> /home/sshyuk/palletrone_ws/install/plant/share/plant/xml
+running install_egg_info
+Copying ../../build/plant/plant.egg-info to /home/sshyuk/palletrone_ws/install/plant/lib/python3.10/site-packages/plant-0.0.1-py3.10.egg-info
+running install_scripts
+Installing plant script to /home/sshyuk/palletrone_ws/install/plant/lib/plant
+writing list of installed files to '/home/sshyuk/palletrone_ws/build/plant/install.log'

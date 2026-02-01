@@ -1,0 +1,15 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from palletrone_interfaces/msg/Input.msg
+// generated code does not contain a copyright notice
+
+
+module palletrone_interfaces {
+  module msg {
+    typedef double double__8[8];
+    @verbatim (language="comment", text=
+      "order: w1 w2 w3 w4 th1 th2 th3 th4")
+    struct Input {
+      double__8 u;
+    };
+  };
+};

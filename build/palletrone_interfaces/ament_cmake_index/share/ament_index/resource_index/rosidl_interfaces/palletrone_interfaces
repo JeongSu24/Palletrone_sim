@@ -1,0 +1,10 @@
+msg/ArmCmd.idl
+msg/ArmCmd.msg
+msg/Cmd.idl
+msg/Cmd.msg
+msg/Input.idl
+msg/Input.msg
+msg/PalletroneState.idl
+msg/PalletroneState.msg
+msg/Wrench.idl
+msg/Wrench.msg

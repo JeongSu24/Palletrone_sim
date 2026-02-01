@@ -1,0 +1,13 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from palletrone_interfaces/msg/Cmd.msg
+// generated code does not contain a copyright notice
+
+
+module palletrone_interfaces {
+  module msg {
+    typedef float float__3[3];
+    struct Cmd {
+      float__3 pos_cmd;
+    };
+  };
+};

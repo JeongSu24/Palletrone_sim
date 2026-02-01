@@ -1,0 +1,43 @@
+[0.400s] Invoking command in '/home/sshyuk/palletrone_ws/src/plant': AMENT_PREFIX_PATH=/home/sshyuk/palletrone_ws/install/palletrone_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/sshyuk/palletrone_ws/install/palletrone_interfaces:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/sshyuk/palletrone_ws/install/palletrone_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/sshyuk/palletrone_ws/build/plant/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/sshyuk/palletrone_ws/install/plant/lib/python3.10/site-packages:/home/sshyuk/palletrone_ws/install/palletrone_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/plant build --build-base /home/sshyuk/palletrone_ws/build/plant/build install --record /home/sshyuk/palletrone_ws/build/plant/install.log --single-version-externally-managed install_data
+[0.554s] running egg_info
+[0.554s] creating ../../build/plant/plant.egg-info
+[0.554s] writing ../../build/plant/plant.egg-info/PKG-INFO
+[0.554s] writing dependency_links to ../../build/plant/plant.egg-info/dependency_links.txt
+[0.554s] writing entry points to ../../build/plant/plant.egg-info/entry_points.txt
+[0.555s] writing requirements to ../../build/plant/plant.egg-info/requires.txt
+[0.555s] writing top-level names to ../../build/plant/plant.egg-info/top_level.txt
+[0.555s] writing manifest file '../../build/plant/plant.egg-info/SOURCES.txt'
+[0.556s] reading manifest file '../../build/plant/plant.egg-info/SOURCES.txt'
+[0.556s] writing manifest file '../../build/plant/plant.egg-info/SOURCES.txt'
+[0.556s] running build
+[0.557s] running build_py
+[0.557s] creating /home/sshyuk/palletrone_ws/build/plant/build
+[0.557s] creating /home/sshyuk/palletrone_ws/build/plant/build/lib
+[0.557s] creating /home/sshyuk/palletrone_ws/build/plant/build/lib/plant
+[0.557s] copying plant/__init__.py -> /home/sshyuk/palletrone_ws/build/plant/build/lib/plant
+[0.557s] copying plant/plant.py -> /home/sshyuk/palletrone_ws/build/plant/build/lib/plant
+[0.557s] running install
+[0.557s] running install_lib
+[0.558s] creating /home/sshyuk/palletrone_ws/install/plant/lib/python3.10/site-packages/plant
+[0.558s] copying /home/sshyuk/palletrone_ws/build/plant/build/lib/plant/__init__.py -> /home/sshyuk/palletrone_ws/install/plant/lib/python3.10/site-packages/plant
+[0.558s] copying /home/sshyuk/palletrone_ws/build/plant/build/lib/plant/plant.py -> /home/sshyuk/palletrone_ws/install/plant/lib/python3.10/site-packages/plant
+[0.558s] byte-compiling /home/sshyuk/palletrone_ws/install/plant/lib/python3.10/site-packages/plant/__init__.py to __init__.cpython-310.pyc
+[0.558s] byte-compiling /home/sshyuk/palletrone_ws/install/plant/lib/python3.10/site-packages/plant/plant.py to plant.cpython-310.pyc
+[0.560s] running install_data
+[0.560s] creating /home/sshyuk/palletrone_ws/install/plant/share/ament_index
+[0.560s] creating /home/sshyuk/palletrone_ws/install/plant/share/ament_index/resource_index
+[0.560s] creating /home/sshyuk/palletrone_ws/install/plant/share/ament_index/resource_index/packages
+[0.560s] copying resource/plant -> /home/sshyuk/palletrone_ws/install/plant/share/ament_index/resource_index/packages
+[0.560s] copying package.xml -> /home/sshyuk/palletrone_ws/install/plant/share/plant
+[0.560s] creating /home/sshyuk/palletrone_ws/install/plant/share/plant/xml
+[0.561s] copying xml/BODY.stl -> /home/sshyuk/palletrone_ws/install/plant/share/plant/xml
+[0.564s] copying xml/scene.xml -> /home/sshyuk/palletrone_ws/install/plant/share/plant/xml
+[0.564s] copying xml/STLchanger.py -> /home/sshyuk/palletrone_ws/install/plant/share/plant/xml
+[0.564s] copying xml/PROP.stl -> /home/sshyuk/palletrone_ws/install/plant/share/plant/xml
+[0.564s] copying xml/Palletrone.xml -> /home/sshyuk/palletrone_ws/install/plant/share/plant/xml
+[0.564s] running install_egg_info
+[0.566s] Copying ../../build/plant/plant.egg-info to /home/sshyuk/palletrone_ws/install/plant/lib/python3.10/site-packages/plant-0.0.1-py3.10.egg-info
+[0.566s] running install_scripts
+[0.579s] Installing plant script to /home/sshyuk/palletrone_ws/install/plant/lib/plant
+[0.579s] writing list of installed files to '/home/sshyuk/palletrone_ws/build/plant/install.log'
+[0.594s] Invoked command in '/home/sshyuk/palletrone_ws/src/plant' returned '0': AMENT_PREFIX_PATH=/home/sshyuk/palletrone_ws/install/palletrone_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/sshyuk/palletrone_ws/install/palletrone_interfaces:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/sshyuk/palletrone_ws/install/palletrone_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/sshyuk/palletrone_ws/build/plant/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/sshyuk/palletrone_ws/install/plant/lib/python3.10/site-packages:/home/sshyuk/palletrone_ws/install/palletrone_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/plant build --build-base /home/sshyuk/palletrone_ws/build/plant/build install --record /home/sshyuk/palletrone_ws/build/plant/install.log --single-version-externally-managed install_data

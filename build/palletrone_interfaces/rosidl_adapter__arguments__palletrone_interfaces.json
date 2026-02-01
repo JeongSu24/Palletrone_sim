@@ -1,0 +1,10 @@
+{
+  "package_name": "palletrone_interfaces",
+  "non_idl_tuples": [
+    "/home/sshyuk/palletrone_ws/src/palletrone_interfaces:msg/Input.msg",
+    "/home/sshyuk/palletrone_ws/src/palletrone_interfaces:msg/PalletroneState.msg",
+    "/home/sshyuk/palletrone_ws/src/palletrone_interfaces:msg/Cmd.msg",
+    "/home/sshyuk/palletrone_ws/src/palletrone_interfaces:msg/Wrench.msg",
+    "/home/sshyuk/palletrone_ws/src/palletrone_interfaces:msg/ArmCmd.msg"
+  ]
+}

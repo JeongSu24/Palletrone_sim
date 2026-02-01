@@ -1,0 +1,8 @@
+source;share/palletrone_cmd/hook/cmake_prefix_path.ps1
+source;share/palletrone_cmd/hook/cmake_prefix_path.dsv
+source;share/palletrone_cmd/hook/cmake_prefix_path.sh
+source;share/palletrone_cmd/local_setup.bash
+source;share/palletrone_cmd/local_setup.dsv
+source;share/palletrone_cmd/local_setup.ps1
+source;share/palletrone_cmd/local_setup.sh
+source;share/palletrone_cmd/local_setup.zsh
