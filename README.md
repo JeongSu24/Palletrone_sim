@@ -86,12 +86,14 @@ ros2 launch palletrone_cmd pt_launch.py
 
 
 <section>
-  <pre><code>Sim_palletrone/
+  <pre><code>
+palletrone_arm/
 └── src/
     ├── palletrone_interfaces/          # ROS2 message definitions
     │   └── msg/
     │       ├── Cmd.msg                 # Desired position/attitude command (units below)
     │       ├── Input.msg               # Control input: motor speeds & servo angles
+		│		 	  ├── ArmCmd.msg              # Control input: long-reach arm joint actuators
     │       ├── PalletroneState.msg     # Simulator state (Z-up)
     │       └── Wrench.msg              # Body-frame forces & torques
     │
