@@ -2,7 +2,7 @@
 </head>
 <body>
 
-<h1>Palletrone Simulator</h1>
+<h1>T-Pam Simulator</h1>
 
 <section>
   <p>
