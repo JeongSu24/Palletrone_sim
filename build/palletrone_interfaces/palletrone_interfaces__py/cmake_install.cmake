@@ -1,8 +1,8 @@
-# Install script for directory: /home/sshyuk/palletrone_ws/build/palletrone_interfaces/palletrone_interfaces__py
+# Install script for directory: /home/parkjeongsu/ros2_ws/src/Palletrone_arm/build/palletrone_interfaces/palletrone_interfaces__py
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/sshyuk/palletrone_ws/install/palletrone_interfaces")
+  set(CMAKE_INSTALL_PREFIX "/home/parkjeongsu/ros2_ws/src/Palletrone_arm/install/palletrone_interfaces")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 

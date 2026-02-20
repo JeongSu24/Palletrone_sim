@@ -1,5 +1,5 @@
-/home/sshyuk/palletrone_ws/build/palletrone_interfaces/rosidl_adapter/palletrone_interfaces:msg/Input.idl
-/home/sshyuk/palletrone_ws/build/palletrone_interfaces/rosidl_adapter/palletrone_interfaces:msg/PalletroneState.idl
-/home/sshyuk/palletrone_ws/build/palletrone_interfaces/rosidl_adapter/palletrone_interfaces:msg/Cmd.idl
-/home/sshyuk/palletrone_ws/build/palletrone_interfaces/rosidl_adapter/palletrone_interfaces:msg/Wrench.idl
-/home/sshyuk/palletrone_ws/build/palletrone_interfaces/rosidl_adapter/palletrone_interfaces:msg/ArmCmd.idl
+/home/parkjeongsu/ros2_ws/src/Palletrone_arm/build/palletrone_interfaces/rosidl_adapter/palletrone_interfaces:msg/Input.idl
+/home/parkjeongsu/ros2_ws/src/Palletrone_arm/build/palletrone_interfaces/rosidl_adapter/palletrone_interfaces:msg/PalletroneState.idl
+/home/parkjeongsu/ros2_ws/src/Palletrone_arm/build/palletrone_interfaces/rosidl_adapter/palletrone_interfaces:msg/Cmd.idl
+/home/parkjeongsu/ros2_ws/src/Palletrone_arm/build/palletrone_interfaces/rosidl_adapter/palletrone_interfaces:msg/Wrench.idl
+/home/parkjeongsu/ros2_ws/src/Palletrone_arm/build/palletrone_interfaces/rosidl_adapter/palletrone_interfaces:msg/ArmCmd.idl

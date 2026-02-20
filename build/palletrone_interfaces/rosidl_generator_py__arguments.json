@@ -1,13 +1,13 @@
 {
   "package_name": "palletrone_interfaces",
-  "output_dir": "/home/sshyuk/palletrone_ws/build/palletrone_interfaces/rosidl_generator_py/palletrone_interfaces",
+  "output_dir": "/home/parkjeongsu/ros2_ws/src/Palletrone_arm/build/palletrone_interfaces/rosidl_generator_py/palletrone_interfaces",
   "template_dir": "/opt/ros/humble/share/rosidl_generator_py/cmake/../resource",
   "idl_tuples": [
-    "/home/sshyuk/palletrone_ws/build/palletrone_interfaces/rosidl_adapter/palletrone_interfaces:msg/Input.idl",
-    "/home/sshyuk/palletrone_ws/build/palletrone_interfaces/rosidl_adapter/palletrone_interfaces:msg/PalletroneState.idl",
-    "/home/sshyuk/palletrone_ws/build/palletrone_interfaces/rosidl_adapter/palletrone_interfaces:msg/Cmd.idl",
-    "/home/sshyuk/palletrone_ws/build/palletrone_interfaces/rosidl_adapter/palletrone_interfaces:msg/Wrench.idl",
-    "/home/sshyuk/palletrone_ws/build/palletrone_interfaces/rosidl_adapter/palletrone_interfaces:msg/ArmCmd.idl"
+    "/home/parkjeongsu/ros2_ws/src/Palletrone_arm/build/palletrone_interfaces/rosidl_adapter/palletrone_interfaces:msg/Input.idl",
+    "/home/parkjeongsu/ros2_ws/src/Palletrone_arm/build/palletrone_interfaces/rosidl_adapter/palletrone_interfaces:msg/PalletroneState.idl",
+    "/home/parkjeongsu/ros2_ws/src/Palletrone_arm/build/palletrone_interfaces/rosidl_adapter/palletrone_interfaces:msg/Cmd.idl",
+    "/home/parkjeongsu/ros2_ws/src/Palletrone_arm/build/palletrone_interfaces/rosidl_adapter/palletrone_interfaces:msg/Wrench.idl",
+    "/home/parkjeongsu/ros2_ws/src/Palletrone_arm/build/palletrone_interfaces/rosidl_adapter/palletrone_interfaces:msg/ArmCmd.idl"
   ],
   "ros_interface_dependencies": [
     "std_msgs:/opt/ros/humble/share/std_msgs/msg/Bool.idl",
@@ -57,11 +57,11 @@
     "/opt/ros/humble/share/rosidl_generator_py/cmake/../resource/_msg.py.em",
     "/opt/ros/humble/share/rosidl_generator_py/cmake/../resource/_srv_pkg_typesupport_entry_point.c.em",
     "/opt/ros/humble/share/rosidl_generator_py/cmake/../resource/_srv.py.em",
-    "/home/sshyuk/palletrone_ws/build/palletrone_interfaces/rosidl_adapter/palletrone_interfaces/msg/Input.idl",
-    "/home/sshyuk/palletrone_ws/build/palletrone_interfaces/rosidl_adapter/palletrone_interfaces/msg/PalletroneState.idl",
-    "/home/sshyuk/palletrone_ws/build/palletrone_interfaces/rosidl_adapter/palletrone_interfaces/msg/Cmd.idl",
-    "/home/sshyuk/palletrone_ws/build/palletrone_interfaces/rosidl_adapter/palletrone_interfaces/msg/Wrench.idl",
-    "/home/sshyuk/palletrone_ws/build/palletrone_interfaces/rosidl_adapter/palletrone_interfaces/msg/ArmCmd.idl",
+    "/home/parkjeongsu/ros2_ws/src/Palletrone_arm/build/palletrone_interfaces/rosidl_adapter/palletrone_interfaces/msg/Input.idl",
+    "/home/parkjeongsu/ros2_ws/src/Palletrone_arm/build/palletrone_interfaces/rosidl_adapter/palletrone_interfaces/msg/PalletroneState.idl",
+    "/home/parkjeongsu/ros2_ws/src/Palletrone_arm/build/palletrone_interfaces/rosidl_adapter/palletrone_interfaces/msg/Cmd.idl",
+    "/home/parkjeongsu/ros2_ws/src/Palletrone_arm/build/palletrone_interfaces/rosidl_adapter/palletrone_interfaces/msg/Wrench.idl",
+    "/home/parkjeongsu/ros2_ws/src/Palletrone_arm/build/palletrone_interfaces/rosidl_adapter/palletrone_interfaces/msg/ArmCmd.idl",
     "/opt/ros/humble/share/std_msgs/msg/Bool.idl",
     "/opt/ros/humble/share/std_msgs/msg/Byte.idl",
     "/opt/ros/humble/share/std_msgs/msg/ByteMultiArray.idl",

@@ -14,5 +14,16 @@ resource/plant
 xml/BODY.stl
 xml/PROP.stl
 xml/Palletrone.xml
-xml/STLchanger.py
 xml/scene.xml
+xml/arm_assets/6prop.stl
+xml/arm_assets/LINK1_honebracket_540_under.stl
+xml/arm_assets/LINK2.stl
+xml/arm_assets/LINK3_xm430_to_Wrist.stl
+xml/arm_assets/MujocoLink2.stl
+xml/arm_assets/Wrist_Link.stl
+xml/arm_assets/XC_330_Parts.stl
+xml/arm_assets/XC_330_bracket.stl
+xml/arm_assets/XC_330_servo.stl
+xml/arm_assets/XL540.stl
+xml/arm_assets/XM,H-430_idler.stl
+xml/arm_assets/case_bearing.stl
